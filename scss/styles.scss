@@ -78,4 +78,27 @@ nav {
       top: -60rem;
     }
   }
+
+  .cover::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .main-program {
+    top: -24rem;
+    background-color: $body-color;
+    color: #fff;
+    padding: 1rem 0;
+    // position: initial;
+    .main-icon {
+      width: 10%;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .main-program {
+    top: -16rem;
+  }
 }
