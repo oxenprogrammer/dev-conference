@@ -40,3 +40,22 @@ img {
 body {
   overflow-x: hidden;
 }
+
+nav {
+  font-size: 1.6rem;
+}
+
+.nav-icons {
+  .fa {
+    color: #fff;
+    font-size: 2rem;
+    margin-right: 1rem;
+  }
+}
+
+.nav-text {
+  .lang,
+  .my-page {
+    margin-right: 1rem;
+  }
+}
