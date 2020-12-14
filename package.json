@@ -1,0 +1,25 @@
+{
+  "name": "dev-conference",
+  "version": "1.0.0",
+  "description": "capstone project html bootstrap css3",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oxenprogrammer/dev-conference.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "css3",
+    "html",
+    "frontend"
+  ],
+  "author": "emanuel okello",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oxenprogrammer/dev-conference/issues"
+  },
+  "homepage": "https://github.com/oxenprogrammer/dev-conference#readme"
+}
