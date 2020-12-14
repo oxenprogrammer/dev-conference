@@ -29,6 +29,6 @@
     "stylelint-scss": "^3.18.0"
   },
   "dependencies": {
-    "bootstrap-scss": "^4.5.3"
+    "bootstrap": "^5.0.0-beta1"
   }
 }
