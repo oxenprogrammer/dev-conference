@@ -63,13 +63,19 @@ nav {
   background-color: $body-bg;
 
   .cover {
-    background-image: url('./../img/black-fashion.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    box-shadow: inset 0 0 0 2000px rgba(48, 38, 131, 0.3);
-    width: 100%;
-    height: 68rem;
+    .cover-image {
+      background-image: url("./../img/black-fashion.jpg");
+      background-size: cover;
+      background-position: center center;
+      background-attachment: scroll;
+      background-repeat: no-repeat;
+      box-shadow: inset 0 0 0 2000px rgba(48, 38, 131, 0.3);
+      width: 100%;
+      height: 68rem;
+    }
+
+    .cover-header {
+      top: -60rem;
+    }
   }
 }
