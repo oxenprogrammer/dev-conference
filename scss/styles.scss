@@ -191,19 +191,34 @@ nav {
 
   .speakers {
     // top: -24rem;
-    padding: 1rem 0;
-    background-color: $body-bg;
+    padding: 1rem 2rem;
+    background-color: #f8f8f8;
 
     .speakers-articles {
-      .speaker-image {
+      .matrix {
         object-fit: cover;
         width: 15rem;
         height: 15rem;
       }
 
+      .speaker-image {
+        object-fit: cover;
+        width: 15rem;
+        height: 15rem;
+        position: relative;
+        top: -12rem;
+        left: 2rem;
+        margin-bottom: -12rem;
+        margin-right: 2rem;
+      }
+
       .speaker-article {
         grid-template-columns: auto auto;
         gap: 5%;
+
+        .speaker-content {
+          margin-left: 2rem;
+        }
       }
     }
   }
@@ -259,6 +274,7 @@ nav {
 
     .speakers {
       // top: -16rem;
+      padding: 10rem;
     }
 
     .partners {
