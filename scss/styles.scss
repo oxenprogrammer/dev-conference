@@ -137,6 +137,7 @@ nav {
   font-size: 1.6rem;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
+
   .footer-logo {
     grid-row: 1/ 2 span;
   }
@@ -170,6 +171,7 @@ nav {
     .footer-logo {
       grid-row: 1/ 2 span;
     }
+
     .footer-lang {
       grid-column: 2 / 3 span;
     }
