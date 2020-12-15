@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Libre+Franklin:wght@900&family=Open+Sans&family=Poppins:wght@300;900&family=Roboto:wght@300;400&display=swap");
-@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+// Bootstrap
 @import "./../node_modules/bootstrap/scss/functions";
 @import "./../node_modules/bootstrap/scss/variables";
 @import "./../node_modules/bootstrap/scss/mixins";
-
 $body-bg: #d3d3d3;
 $body-color: #272a31;
 $primary: #ee523c;
 $gray: #d3d3d3;
+
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 // global resets
 * {
@@ -56,6 +57,10 @@ nav {
   }
 }
 
+.d-grid {
+  display: grid;
+}
+
 .main {
   overflow-x: hidden;
   max-width: 100%;
@@ -95,10 +100,35 @@ nav {
       width: 10%;
     }
   }
+
+  .speakers {
+    top: -24rem;
+    padding: 1rem 0;
+    background-color: $body-bg;
+
+    .speakers-articles {
+      .speaker-image {
+        object-fit: cover;
+        width: 15rem;
+        height: 15rem;
+      }
+
+      .speaker-article {
+        grid-template-columns: auto auto;
+        gap: 5%;
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: 768px) {
-  .main-program {
-    top: -16rem;
+  .main {
+    .main-program {
+      top: -16rem;
+    }
+
+    .speakers {
+      top: -16rem;
+    }
   }
 }
