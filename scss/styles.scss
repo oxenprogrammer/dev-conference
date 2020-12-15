@@ -36,6 +36,8 @@ img {
 
 body {
   overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
 }
 
 nav {
@@ -69,30 +71,62 @@ nav {
 
   .cover {
     .cover-image {
-      background-image: url("./../img/black-fashion.jpg");
+      background-image: url("./../img/background.jpg");
       background-size: cover;
       background-position: center center;
       background-attachment: scroll;
       background-repeat: no-repeat;
-      box-shadow: inset 0 0 0 2000px rgba(48, 38, 131, 0.3);
+      box-shadow: inset 0 0 0 2000px rgba(243, 233, 225, 0.3);
       width: 100%;
       height: 68rem;
     }
 
     .cover-header {
       top: -60rem;
+      padding: 0 2rem;
+
+      .cover-header-subtitle {
+        color: $primary;
+        font-size: 2rem;
+        font-weight: 700;
+      }
+
+      .cover-header-title {
+        background-image: url('./../img/afro-header2.jpg');
+        display: inline-block;
+        -webkit-background-clip: text;
+        color: transparent;
+        font-family: 'Libre Franklin', sans-serif;
+        font-size: 4rem;
+        font-weight: 900;
+        text-transform: uppercase;
+      }
+
+      .cover-header-paragraph {
+        background-color: $body-bg;
+        color: #000;
+        padding: 2rem;
+        border: 2px solid #fff;
+        opacity: 0.9;
+      }
+
+      .cover-header-h3 {
+        color: rgb(44, 42, 42);
+        font-size: 2rem;
+        font-weight: bold;
+      }
+
+      .cover-header-last {
+        font-size: 1.3rem;
+        color: rgb(44, 42, 42);
+        font-weight: bold;
+      }
     }
   }
 
-  .cover::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
   .main-program {
-    top: -24rem;
-    margin-bottom: -24rem;
+    top: -41rem;
+    margin-bottom: -41rem;
     background-color: $body-color;
     color: #fff;
     padding: 1rem 0;
@@ -146,8 +180,8 @@ nav {
 @media only screen and (min-width: 768px) {
   .main {
     .main-program {
-      top: -16rem;
-      margin-bottom: -16rem;
+      top: -32rem;
+      margin-bottom: -32rem;
     }
 
     .speakers {
