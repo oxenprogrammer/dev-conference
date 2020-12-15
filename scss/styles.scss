@@ -198,6 +198,16 @@ nav {
       padding: 2rem;
     }
 
+    .main-program-header::before {
+      content: "";
+      position: absolute;
+      width: 10%;
+      height: 1px;
+      bottom: 96%;
+      left: 45%;
+      border-bottom: 1px solid $primary;
+    }
+
     .speakers-articles {
       .matrix {
         object-fit: cover;
@@ -279,6 +289,10 @@ nav {
     .speakers {
       // top: -16rem;
       padding: 10rem;
+
+      .main-program-header::before {
+        bottom: 87%;
+      }
     }
 
     .partners {
