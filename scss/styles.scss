@@ -194,6 +194,10 @@ nav {
     padding: 1rem 2rem;
     background-color: #f8f8f8;
 
+    .main-program-header {
+      padding: 2rem;
+    }
+
     .speakers-articles {
       .matrix {
         object-fit: cover;
@@ -203,8 +207,8 @@ nav {
 
       .speaker-image {
         object-fit: cover;
-        width: 15rem;
-        height: 15rem;
+        width: 20rem;
+        height: 20rem;
         position: relative;
         top: -12rem;
         left: 2rem;
@@ -213,7 +217,7 @@ nav {
       }
 
       .speaker-article {
-        grid-template-columns: auto auto;
+        grid-template-columns: 40% 50%;
         gap: 5%;
 
         .speaker-content {
