@@ -119,6 +119,17 @@ nav {
       }
     }
   }
+
+  .partners {
+    top: -24rem;
+    padding: 1rem 0;
+    background-color: $body-color;
+    color: $gray;
+
+    .partner-article {
+      grid-template-columns: auto auto auto;
+    }
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -129,6 +140,14 @@ nav {
 
     .speakers {
       top: -16rem;
+    }
+
+    .partners {
+      top: -16rem;
+
+      .partner-article {
+        grid-template-columns: auto auto auto auto auto;
+      }
     }
   }
 }
