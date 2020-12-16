@@ -239,12 +239,46 @@ nav {
 
   .partners {
     // top: -24rem;
-    padding: 1rem 0;
-    background-color: $body-color;
+    padding: 2rem 2rem 3.5rem 2rem;
+    background-color: #414246;
     color: $gray;
 
+    .main-program-header {
+      padding: 2rem;
+
+      .main-h2 {
+        font-size: 2.8rem;
+        text-decoration: underline $primary;
+        text-underline-position: under;
+      }
+    }
+
     .partner-article {
+      justify-content: space-evenly;
+      font-size: 3.4rem;
       grid-template-columns: auto auto auto;
+
+      .partner-mozilla {
+        font-weight: bold;
+      }
+
+      .partner-google {
+        font-weight: lighter;
+        padding-right: 1rem;
+      }
+
+      .partner-naver {
+        font-weight: bolder;
+      }
+
+      .partner-airbnb {
+        padding-left: 1rem;
+
+        .airbnb {
+          width: 3.2rem;
+          filter: invert(100%) sepia(3%) saturate(7500%) hue-rotate(238deg) brightness(115%) contrast(100%);
+        }
+      }
     }
   }
 }
