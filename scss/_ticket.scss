@@ -59,5 +59,28 @@
   .lunch-section {
     background-color: #fff;
     padding: 8rem 6rem;
+
+    .menus {
+      padding: 2rem;
+
+      .menu {
+        margin: 1rem;
+      }
+
+      .menu-title {
+        background-color: #f7f7f7;
+        padding: 1rem;
+        font-size: 2rem;
+        font-weight: bold;
+        color: $primary;
+      }
+
+      .menu-list {
+        padding: 3rem 0;
+      }
+    }
   }
 }
+
+// @media only screen and (min-width: 768px) {
+// }
