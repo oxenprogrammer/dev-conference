@@ -1,5 +1,7 @@
 // Ticket Stylings
 .cover-tickets {
+  background-color: #f7f7f7;
+
   .cover-ticket {
     background-color: #f7f7f7;
   }
@@ -45,15 +47,21 @@
 
   .selection {
     margin: 0 auto;
-    border: 1px solid #f7f7f7;
+    border: 1px solid gray;
     border-radius: 2rem;
     width: max-content;
     padding: 0.2rem 1rem;
   }
 
+  .selection-span {
+    color: $primary;
+  }
+
   .diamond {
     color: $primary;
     font-size: 5rem;
+    width: max-content;
+    margin: 0 auto -3rem auto;
   }
 
   .lunch-section {
@@ -65,6 +73,7 @@
 
       .menu {
         margin: 1rem;
+        border: 1px solid gray;
       }
 
       .menu-title {
@@ -78,6 +87,16 @@
       .menu-list {
         padding: 3rem 0;
       }
+    }
+
+    .join {
+      background-color: $primary;
+      width: max-content;
+      padding: 2rem 3rem;
+      font-size: 2rem;
+      font-weight: bold;
+      margin: 2rem;
+      word-spacing: 1rem;
     }
   }
 }
