@@ -6,7 +6,6 @@
 			name="viewport"
 			content="width=device-width, initial-scale=1.0"
 		/>
-		<!-- CSS only -->
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
 			rel="stylesheet"
@@ -17,7 +16,235 @@
 		<title>Dev Conference - Tickets</title>
 	</head>
 	<body>
-		<!-- JavaScript Bundle with Popper -->
+		<nav
+			class="top-nav d-none d-md-block bg-dark p-4 text-white d-flex ml-auto"
+		>
+			<!-- <div class="nav-icons">
+				<i class="fa fa-facebook" aria-hidden="true"></i>
+				<i class="fa fa-twitter" aria-hidden="true"></i>
+			</div> -->
+			<div class="nav-text d-flex">
+				<div class="lang">English</div>
+				<div class="my-page">My Page</div>
+				<div class="logout">Logout</div>
+			</div>
+		</nav>
+
+		<nav
+			class="navbar sticky-top navbar-expand-md navbar-light bg-light d-flex justify-content-between p-4"
+		>
+			<a class="navbar-brand" href="./../index.html">Afro Fashion</a>
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarNavAltMarkup"
+				aria-controls="navbarNavAltMarkup"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div
+				class="collapse navbar-collapse justify-content-around"
+				id="navbarNavAltMarkup"
+			>
+				<div class="navbar-nav justify-content-around">
+					<a class="nav-item nav-link active" href="./../index.html"
+						>Home <span class="sr-only"></span></a
+					>
+					<a class="nav-item nav-link" href="./about.html">About</a>
+					<a class="nav-item nav-link" href="./ticket.html">Tickets</a>
+				</div>
+			</div>
+		</nav>
+
+		<main class="main">
+			<div class="cover-tickets">
+				<div class="cover-ticket"></div>
+				<nav class="home-ticket">
+					<header
+						class="d-flex justify-content-end p-2 ticket-links"
+					>
+						<h6>Home ></h6>
+						<h6>Amaso ></h6>
+						<h6>Acholi</h6>
+					</header>
+				</nav>
+				<h1 class="select-ticket text-center">
+					Select Tickets
+				</h1>
+				<p class="selection text-center">
+					<span class="selection-span">Step 1 </span>Please
+					select your afro fashion ticket type
+				</p>
+				<section class="envelop-background">
+					<article
+						class="d-flex justify-content-center envelop-content"
+					>
+						<table class="table">
+							<tr>
+								<th class="table-content text-center">
+									Tickets
+								</th>
+								<th class="table-content text-center">
+									1-Day-Tickets
+								</th>
+								<th
+									class="table-content text-center"
+									colspan="2"
+								>
+									2-Day-Ticket
+								</th>
+								<th class="table-content text-center">
+									3-Day-Ticket
+								</th>
+							</tr>
+							<tr>
+								<td class="table-content text-center">
+									Date
+								</td>
+								<td class="table-content text-center">
+									15.Oct(Thu)
+								</td>
+								<td class="table-content text-center">
+									16.Oct(Fri)
+								</td>
+								<td class="table-content text-center">
+									15-16.Oct(Thu - Fri)
+								</td>
+								<td class="table-content text-center">
+									15-16.Oct(Thu-Fri)
+								</td>
+							</tr>
+							<tr>
+								<td
+									class="table-content text-center d-flex flex-column"
+								>
+									<div>Silver</div>
+									<span>.</span>
+								</td>
+								<td
+									class="table-content text-pri text-center"
+								>
+									56,000/=
+								</td>
+								<td
+									class="table-content text-pri text-center"
+								>
+									120,000/=
+								</td>
+								<td
+									class="table-content text-pri text-center"
+								>
+									94,000/=
+								</td>
+								<td
+									class="table-content text-pri text-center"
+								>
+									125,000/=
+								</td>
+							</tr>
+							<tr>
+								<td
+									class="table-content text-center d-flex flex-column"
+								>
+									<div>Gold</div>
+									<span>.</span>
+								</td>
+								<td
+									class="table-content text-pri text-center"
+								>
+									1,500,000/=
+								</td>
+								<td
+									class="table-content text-pri text-center"
+								>
+									1,300,000/=
+								</td>
+								<td
+									class="table-content text-pri text-center"
+								>
+									1,200,000/=
+								</td>
+								<td
+									class="table-content text-pri text-center"
+								>
+									1,000,000/=
+								</td>
+							</tr>
+						</table>
+					</article>
+				</section>
+				<div class="diamond">&#9830;</div>
+				<section class="lunch-section">
+					<h1 class="select-ticket text-center">
+						Select Your Lunch
+					</h1>
+					<p class="selection text-center">
+						<span class="selection-span">Step 2 </span>Please
+						select your afro fashion ticket type
+					</p>
+					<div class="menus d-flex flex-column">
+						<article class="menu">
+							<h4 class="text-center menu-title">
+								First Exhibition List
+							</h4>
+							<div
+								class="menu-list d-flex justify-content-evenly align-content-center"
+							>
+								<div class="list">Kitenge</div>
+								<div class="list">Nigerian Wear</div>
+								<div class="list">Acholi hides</div>
+								<div class="list">Buganda Back Cloth</div>
+							</div>
+						</article>
+						<article class="menu">
+							<h4 class="text-center menu-title">
+								Second Exhibition List
+							</h4>
+							<div
+								class="menu-list d-flex justify-content-evenly align-content-center"
+							>
+								<div class="list">Kitenge</div>
+								<div class="list">Nigerian Wear</div>
+								<div class="list">Acholi hides</div>
+								<div class="list">Buganda Back Cloth</div>
+							</div>
+						</article>
+					</div>
+					<span
+						class="d-flex join d-block text-white d-lg-none text-center mx-auto"
+						>Join Afro Fashion Exhibition 2020</span
+					>
+				</section>
+			</div>
+			<section class="position-relative partners">
+				<header class="main-program-header">
+					<h2 class="main-h2 text-center">Partners</h2>
+				</header>
+				<article class="partner-article d-grid">
+					<div class="partner-mozilla">mozilla</div>
+					<div class="partner-google">Google</div>
+					<div class="partner-naver">naver</div>
+					<div class="partner-daumkakao">daumkakao</div>
+					<div class="d-flex partner-airbnb text-center"><img class="airbnb" src="./../img/airbnb.svg" alt="airbnb">&nbsp;&nbsp;airbnb</div>
+				</article>
+			</section>
+		</main>
+		<footer class="footer d-grid">
+			<div class="footer-logo">Afro Fashion</div>
+			<address class="footer-brand">
+				2020 Afro Fashion Kampala
+			</address>
+			<address class="footer-copyright">
+				Some Rights Reserved
+			</address>
+			<address class="d-none d-md-block footer-lang">
+				Some Korean words i don't really understand
+			</address>
+		</footer>
+
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
