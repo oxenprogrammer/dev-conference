@@ -124,6 +124,74 @@ nav {
         font-weight: bold;
       }
     }
+
+    // Ticket Stylings
+    .cover-ticket {
+      background: rgb(2, 0, 36);
+      background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(242, 247, 246, 0.9444152661064426) 38%, rgba(0, 212, 255, 1) 100%);
+    }
+
+    .envelop-background {
+      padding: 2rem 6rem;
+      // border: 10px dotted black;
+      // // padding: 15px;
+      // background-clip: padding-box;
+      // background-repeat: no-repeat;
+      // height: 40rem;
+      // width: 80%;
+      // margin: 0 auto;
+      // background-attachment: scroll;
+      // -webkit-background-size: 100% 100%;
+      // -moz-background-size: 100% 100%;
+      // -o-background-size: 100% 100%;
+      // background-size: 100% 100%;
+
+      .envelop-content {
+        border: 10px dotted black;
+        // padding: 15px;
+        background-clip: padding-box;
+        background-repeat: no-repeat;
+        justify-content: space-evenly;
+        grid-template-columns: auto auto auto auto auto;
+        grid-template-rows: auto auto auto auto;
+        gap: 5%;
+        // border: 1px solid black;
+        overflow-x: auto;
+
+        .table {
+          border-collapse: collapse;
+          border-spacing: 0;
+          width: 100%;
+          border: 1px solid #ddd;
+          background-color: #fff;
+
+          .table-content {
+            text-align: left;
+            padding: 8px;
+          }
+        }
+        // .envelop-item {
+        //   padding: 1rem;
+        //   border: 1px solid black;
+        // }
+
+        // .day2 {
+        //   grid-column: 3/ 5;
+        // }
+
+        // .gold {
+        //   background-color: yellow;
+        // }
+
+        // .silver {
+        //   background-color: gray;
+        // }
+
+        // .platinum {
+        //   background-color: purple;
+        // }
+      }
+    }
   }
 
   .main-program {
