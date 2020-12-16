@@ -8,7 +8,9 @@
     padding: 8rem 6rem;
 
     .envelop-content {
-      border: 10px dotted black;
+      outline: 1rem dashed $primary;
+      box-shadow: 0 0 0 1rem rgb(59, 59, 235);
+      // border: 10px dashed black;
       background-clip: padding-box;
       background-repeat: no-repeat;
       justify-content: space-evenly;
@@ -39,6 +41,19 @@
         }
       }
     }
+  }
+
+  .selection {
+    margin: 0 auto;
+    border: 1px solid #f7f7f7;
+    border-radius: 2rem;
+    width: max-content;
+    padding: 0.2rem 1rem;
+  }
+
+  .diamond {
+    color: $primary;
+    font-size: 5rem;
   }
 
   .lunch-section {
