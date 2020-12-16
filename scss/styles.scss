@@ -232,6 +232,15 @@ nav {
 
         .speaker-content {
           margin-left: 2rem;
+
+          p:nth-of-type(1) {
+            color: $primary;
+          }
+
+          .content-h2 {
+            font-size: 2.4rem;
+            font-weight: bolder;
+          }
         }
       }
     }
@@ -284,12 +293,21 @@ nav {
 }
 
 .footer {
+  background-color: #f8f8f8;
+  padding: 2rem;
   font-size: 1.6rem;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
 
   .footer-logo {
     grid-row: 1/ 2 span;
+    padding-right: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    background-image: url('./../img/gold.jpg');
+    -webkit-background-clip: text;
+    display: inline-block;
+    color: transparent;
   }
 }
 
@@ -345,6 +363,7 @@ nav {
 
     .footer-logo {
       grid-row: 1/ 2 span;
+      font-size: 5rem;
     }
 
     .footer-lang {
