@@ -1,14 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Libre+Franklin:wght@900&family=Open+Sans&family=Poppins:wght@300;900&family=Roboto:wght@300;400&display=swap");
-// Bootstrap
-@import "./../node_modules/bootstrap/scss/functions";
-@import "./../node_modules/bootstrap/scss/variables";
-@import "./../node_modules/bootstrap/scss/mixins";
+
 $body-bg: #d3d3d3;
 $body-color: #272a31;
 $primary: #ee523c;
 $gray: #d3d3d3;
-
-@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 // global resets
 * {
@@ -127,12 +122,11 @@ nav {
 
     // Ticket Stylings
     .cover-ticket {
-      background: rgb(2, 0, 36);
-      background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(242, 247, 246, 0.9444152661064426) 38%, rgba(0, 212, 255, 1) 100%);
+      background-color: #f7f7f7;
     }
 
     .envelop-background {
-      padding: 2rem 6rem;
+      padding: 8rem 6rem;
 
       .envelop-content {
         border: 10px dotted black;
@@ -151,9 +145,18 @@ nav {
           border: 1px solid #ddd;
           background-color: #fff;
 
+          tr:nth-of-type(1) {
+            background-color: #f7f7f7;
+          }
+
           .table-content {
-            text-align: left;
             padding: 8px;
+            border: 1px solid #ddd;
+          }
+
+          .text-pri {
+            color: $primary;
+            font-weight: bold;
           }
         }
       }
