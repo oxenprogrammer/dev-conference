@@ -1,1 +1,56 @@
 // about
+.cover {
+  .cover-about {
+    background-image: url("./../img/about.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    box-shadow:
+      inset 0 0 0 2000px
+      rgba(250, 248, 248, 0.7);
+    width: 100%;
+    height: 68rem;
+  }
+
+  .cover-content {
+    text-align: center;
+    position: relative;
+    top: -60rem;
+    margin-bottom: -40rem;
+  }
+
+  .cover-title {
+    display: table;
+    text-align: justify;
+    font-size: 4rem;
+    font-weight: 700;
+    color: $primary;
+    margin: 0 auto;
+  }
+
+  .summary {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid gray;
+  }
+
+  .email-link {
+    color: #000;
+    font-weight: bold;
+  }
+
+  .creative {
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .cover {
+    .cover-content {
+      margin-bottom: -33.5rem;
+    }
+  }
+}

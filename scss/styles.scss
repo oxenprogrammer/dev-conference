@@ -73,7 +73,7 @@ nav {
       background-repeat: no-repeat;
       box-shadow:
         inset 0 0 0 2000px
-        rgba(204, 146, 142, 0.3);
+        rgba(250, 248, 248, 0.9);
       width: 100%;
       height: 68rem;
     }
@@ -300,6 +300,20 @@ nav {
 
 @media only screen and (min-width: 768px) {
   .main {
+    .cover {
+      .cover-header {
+        margin-bottom: -27rem;
+
+        .cover-header-title {
+          font-size: 9rem;
+        }
+
+        .cover-header-paragraph {
+          font-size: 2.4rem;
+        }
+      }
+    }
+
     .main-program {
       top: -32rem;
       margin-bottom: -32rem;
@@ -361,3 +375,6 @@ nav {
 
 // ticket styling
 @import './ticket';
+
+// about styling
+@import './about'
