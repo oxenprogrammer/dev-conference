@@ -47,22 +47,60 @@ body {
   color: $black;
 }
 
-nav {
-  font-size: 1.6rem;
+// nav {
+//   font-size: 1.6rem;
+// }
+
+// .nav-icons {
+//   .fa {
+//     color: #fff;
+//     font-size: 2rem;
+//     margin-right: 1rem;
+//   }
+// }
+
+// .nav-text {
+//   .lang,
+//   .my-page {
+//     margin-right: 1rem;
+//   }
+// }
+
+.nav {
+  width: 100%;
+  background-color: #f8f8f8;
+  position: relative;
 }
 
-.nav-icons {
-  .fa {
-    color: #fff;
-    font-size: 2rem;
-    margin-right: 1rem;
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav-title {
+  display: inline-block;
+  padding: 1rem 1rem 1rem 8rem;
+  width: 60%;
+}
+
+.nav-links {
+  display: inline;
+  float: right;
+  font-size: 1.8rem;
+
+  .nav-link {
+    display: inline-block;
+    padding: 1.4rem 1rem 1.2rem 1rem;
+    color: $black;
+    font-weight: bold;
+    text-decoration: none;
   }
-}
 
-.nav-text {
-  .lang,
-  .my-page {
-    margin-right: 1rem;
+  .nav-link:not(:last-child) {
+    margin-right: 8rem;
+  }
+
+  .nav-link:hover {
+    color: $primary;
   }
 }
 
