@@ -47,6 +47,8 @@
 //   }
 // }
 .about-cover {
+  padding: 2rem 0;
+
   .about-header {
     font-family: "Cocogoose Pro", "Libre Franklin", sans-serif;
     font-size: 2.2rem;
@@ -75,14 +77,37 @@
   }
 }
 
+.creative {
+  padding: 2rem;
+
+  .creative-words {
+    padding: 2rem 0;
+  }
+
+  .african-logo {
+    display: block;
+    margin: 0 auto;
+    border: 0.2rem solid #f8f8f8;
+    padding: 2rem 4rem;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .about-cover {
+    padding: 6rem 0;
+
     .about-header {
       font-size: 4rem;
     }
 
     .cover-header-paragraph {
       margin: 0 12rem;
+    }
+  }
+
+  .creative {
+    .creative-words {
+      padding: 2rem 10rem;
     }
   }
 }
