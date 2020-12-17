@@ -78,17 +78,30 @@
 }
 
 .creative {
-  padding: 2rem;
+  padding: 2rem 0;
+
+  .creative-header {
+    font-weight: bold;
+  }
 
   .creative-words {
-    padding: 2rem 0;
+    padding: 2rem;
   }
 
   .african-logo {
     display: block;
     margin: 0 auto;
     border: 0.2rem solid #f8f8f8;
-    padding: 2rem 4rem;
+    padding: 2rem 2rem;
+    width: 80%;
+  }
+}
+
+.past-events {
+  padding: 2rem 0;
+
+  .past-events-header {
+    font-weight: bold;
   }
 }
 
@@ -108,6 +121,11 @@
   .creative {
     .creative-words {
       padding: 2rem 10rem;
+    }
+
+    .african-logo {
+      padding: 2rem 4rem;
+      width: 50%;
     }
   }
 }
