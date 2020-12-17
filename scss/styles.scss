@@ -1,9 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Libre+Franklin:wght@900&family=Open+Sans&family=Poppins:wght@300;900&family=Roboto:wght@300;400&display=swap");
 
+@font-face {
+  font-family: 'Cocogoose Pro';
+  src: url('./../fonts/Cocogoose\ Pro.ttf');
+}
+
+@font-face {
+  font-family: 'Cocogoose Pro Light';
+  src: url('./../fonts/Cocogoose\ Pro\ Light.ttf');
+}
+
 $body-bg: #d3d3d3;
 $body-color: #272a31;
 $primary: #ee523c;
 $gray: #d3d3d3;
+$black: #272a31;
 
 // global resets
 * {
@@ -33,6 +44,7 @@ body {
   overflow-x: hidden;
   font-family: "Lato", sans-serif;
   font-weight: 400;
+  color: $black;
 }
 
 nav {
@@ -84,7 +96,8 @@ nav {
 
       .cover-header-subtitle {
         color: $primary;
-        font-size: 2rem;
+        font-family: "Cocogoose Pro Light", "Lato", sans-serif;
+        font-size: 3rem;
         font-weight: 700;
       }
 
@@ -93,9 +106,8 @@ nav {
         display: inline-block;
         -webkit-background-clip: text;
         color: transparent;
-        font-family: "Libre Franklin", sans-serif;
+        font-family: "Cocogoose Pro", "Libre Franklin", sans-serif;
         font-size: 4rem;
-        font-weight: 900;
         text-transform: uppercase;
       }
 
