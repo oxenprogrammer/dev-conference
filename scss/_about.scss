@@ -1,56 +1,88 @@
 // about
-.cover {
-  .cover-about {
-    background-image: url("./../img/about.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    box-shadow:
-      inset 0 0 0 2000px
-      rgba(250, 248, 248, 0.7);
-    width: 100%;
-    height: 68rem;
-  }
+// .cover {
+//   .cover-about {
+//     background-image: url("./../img/about.jpg");
+//     background-size: cover;
+//     background-position: center center;
+//     background-attachment: scroll;
+//     background-repeat: no-repeat;
+//     box-shadow:
+//       inset 0 0 0 2000px
+//       rgba(250, 248, 248, 0.7);
+//     width: 100%;
+//     height: 68rem;
+//   }
 
-  .cover-content {
-    text-align: center;
-    position: relative;
-    top: -60rem;
-    margin-bottom: -40rem;
-  }
+//   .cover-content {
+//     text-align: center;
+//     position: relative;
+//     top: -60rem;
+//     margin-bottom: -40rem;
+//   }
 
-  .cover-title {
-    display: table;
-    text-align: justify;
-    font-size: 4rem;
-    font-weight: 700;
+//   .cover-title {
+//     display: table;
+//     text-align: justify;
+//     font-size: 4rem;
+//     font-weight: 700;
+//     color: $primary;
+//     margin: 0 auto;
+//   }
+
+//   .summary {
+//     display: inline-block;
+//     margin: 0 auto;
+//     padding: 2rem;
+//     border: 1px solid gray;
+//   }
+
+//   .email-link {
+//     color: #000;
+//     font-weight: bold;
+//   }
+
+//   .creative {
+//     background-color: #f7f7f7;
+//     text-align: center;
+//   }
+// }
+.about-cover {
+  .about-header {
+    font-family: "Cocogoose Pro", "Libre Franklin", sans-serif;
+    font-size: 2.2rem;
+    font-weight: lighter;
+    text-transform: uppercase;
     color: $primary;
-    margin: 0 auto;
-  }
-
-  .summary {
-    display: inline-block;
-    margin: 0 auto;
     padding: 2rem;
-    border: 1px solid gray;
   }
 
-  .email-link {
-    color: #000;
+  .cover-header-paragraph {
+    background-color: $body-bg;
+    padding: 2rem;
+    border: 2px solid #fff;
+    opacity: 0.9;
+    margin: 0 4rem;
+  }
+
+  .cover-header-last {
+    margin: 0.2rem 4rem;
+  }
+
+  .email {
+    color: $black;
+    font-size: 1.8rem;
     font-weight: bold;
-  }
-
-  .creative {
-    background-color: #f7f7f7;
-    text-align: center;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  .cover {
-    .cover-content {
-      margin-bottom: -33.5rem;
+  .about-cover {
+    .about-header {
+      font-size: 4rem;
+    }
+
+    .cover-header-paragraph {
+      margin: 0 12rem;
     }
   }
 }
