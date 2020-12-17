@@ -1,51 +1,3 @@
-// about
-// .cover {
-//   .cover-about {
-//     background-image: url("./../img/about.jpg");
-//     background-size: cover;
-//     background-position: center center;
-//     background-attachment: scroll;
-//     background-repeat: no-repeat;
-//     box-shadow:
-//       inset 0 0 0 2000px
-//       rgba(250, 248, 248, 0.7);
-//     width: 100%;
-//     height: 68rem;
-//   }
-
-//   .cover-content {
-//     text-align: center;
-//     position: relative;
-//     top: -60rem;
-//     margin-bottom: -40rem;
-//   }
-
-//   .cover-title {
-//     display: table;
-//     text-align: justify;
-//     font-size: 4rem;
-//     font-weight: 700;
-//     color: $primary;
-//     margin: 0 auto;
-//   }
-
-//   .summary {
-//     display: inline-block;
-//     margin: 0 auto;
-//     padding: 2rem;
-//     border: 1px solid gray;
-//   }
-
-//   .email-link {
-//     color: #000;
-//     font-weight: bold;
-//   }
-
-//   .creative {
-//     background-color: #f7f7f7;
-//     text-align: center;
-//   }
-// }
 .about-cover {
   padding: 2rem 0;
 
@@ -59,15 +11,17 @@
   }
 
   .cover-header-paragraph {
-    background-color: $body-bg;
+    background-color: #f8f8f8;
     padding: 2rem;
     border: 2px solid #fff;
     opacity: 0.9;
     margin: 0 4rem;
+    color: $black;
   }
 
   .cover-header-last {
     margin: 0.2rem 4rem;
+    color: $black;
   }
 
   .email {
@@ -98,17 +52,17 @@
 }
 
 .past-events {
-  padding: 2rem;
+  padding: 2rem 0;
 
   .past-events-header {
     font-weight: bold;
   }
 
   .event-images {
+    padding: 2rem;
     display: grid;
+    align-items: center;
     gap: 5%;
-    // display: flex;
-    // flex-direction: column;
 
     .img-1,
     .img-2 {
@@ -118,6 +72,21 @@
       width: 95%;
       height: 10rem;
       margin: 0 auto;
+    }
+
+    .event-words {
+      position: relative;
+      top: -8rem;
+      margin-bottom: -8rem;
+    }
+
+    .year {
+      font-size: 2.4rem;
+      font-weight: bold;
+    }
+
+    .year-tag {
+      font-weight: bold;
     }
   }
 }
@@ -155,6 +124,10 @@
       .img-1,
       .img-2 {
         height: 18rem;
+      }
+
+      .event-words {
+        top: -16rem;
       }
     }
   }
