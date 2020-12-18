@@ -264,18 +264,18 @@ body {
     }
 
     .join {
+      display: block;
       background-color: $primary;
       width: max-content;
-      padding: 4rem 3rem;
+      padding: 3rem 2rem;
       font-size: 2rem;
       font-weight: bold;
-      margin: 5rem 2rem;
+      margin: 3rem auto;
       word-spacing: 1rem;
     }
   }
 
   .speakers {
-    // top: -24rem;
     padding: 1rem 2rem;
     background-color: #f8f8f8;
 
@@ -332,7 +332,6 @@ body {
   }
 
   .partners {
-    // top: -24rem;
     padding: 2rem 2rem 3.5rem 2rem;
     background-color: #414246;
     color: $gray;
@@ -450,7 +449,6 @@ body {
     }
 
     .speakers {
-      // top: -16rem;
       padding: 10rem;
 
       .main-program-header::before {
@@ -459,8 +457,6 @@ body {
     }
 
     .partners {
-      // top: -16rem;
-
       .partner-article {
         grid-template-columns: auto auto auto auto auto;
       }

@@ -6,13 +6,21 @@
     background-color: #f7f7f7;
   }
 
+  .home-ticket {
+    margin-right: 1rem;
+
+    .home {
+      position: relative;
+      top: -0.5rem;
+    }
+  }
+
   .envelop-background {
     padding: 8rem 6rem;
 
     .envelop-content {
       outline: 1rem dashed $primary;
       box-shadow: 0 0 0 1rem rgb(59, 59, 235);
-      // border: 10px dashed black;
       background-clip: padding-box;
       background-repeat: no-repeat;
       justify-content: space-evenly;
@@ -91,16 +99,14 @@
     }
 
     .join {
+      display: block;
       background-color: $primary;
       width: max-content;
       padding: 2rem 3rem;
       font-size: 2rem;
       font-weight: bold;
-      margin: 2rem;
-      word-spacing: 1rem;
+      margin: 0 auto;
+      word-spacing: 0.3rem;
     }
   }
 }
-
-// @media only screen and (min-width: 768px) {
-// }

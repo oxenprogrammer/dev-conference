@@ -1,5 +1,5 @@
 # Afro Fashion (Capstone 1 Html and Css)
-HTML &amp; CSS Capstone Project is based on an online website for a an imaginary annaul African Fashion Summit that take place in the haert of Kampala. Built to demonstrate  knowledge gained from the HTML and CSS3 module over the past 3 weeks.
+HTML5 and CSS3 Capstone Project is based on an online website for a an imaginary annual African Fashion Summit that takes place in the heart of Kampala. Built to demonstrate knowledge gained from the HTML and CSS3 module over the past 3 weeks.
 
 
 
@@ -48,9 +48,10 @@ Contributions, issues, and feature requests are welcome!
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
+This Design is inspired by the works of Cindy Shin in Behance
 
 - https://www.theodinproject.com/
-- https://www.thenextweb.com
+- https://www.behance.net/gallery/29845175/CC-Global-Summit-2015
 - pexels.com
 
 ## 📝 License
