@@ -264,12 +264,13 @@ body {
     }
 
     .join {
+      display: block;
       background-color: $primary;
       width: max-content;
-      padding: 4rem 3rem;
+      padding: 3rem 2rem;
       font-size: 2rem;
       font-weight: bold;
-      margin: 5rem 2rem;
+      margin: 3rem auto;
       word-spacing: 1rem;
     }
   }
