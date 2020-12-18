@@ -65,6 +65,21 @@ body {
 //     margin-right: 1rem;
 //   }
 // }
+.mobile {
+  width: 100%;
+  height: auto;
+  background-color: #f9f6f5;
+
+  .fa-bars {
+    display: block;
+    font-size: 4rem;
+    padding: 1rem;
+    color: $black;
+  }
+}
+.desktop {
+  display: none;
+}
 
 .nav {
   width: 100%;
@@ -96,6 +111,10 @@ body {
 
   .nav-link:not(:last-child) {
     margin-right: 6rem;
+  }
+
+  .nav-link:last-child {
+    margin-right: 5rem;
   }
 
   .nav-link:hover {
@@ -349,6 +368,10 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
+  .desktop {
+    display: inline-block;
+  }
+
   .main {
     .cover {
       .cover-header {
