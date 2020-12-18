@@ -90,13 +90,14 @@
     }
 
     .join {
+      display: block;
       background-color: $primary;
       width: max-content;
       padding: 2rem 3rem;
       font-size: 2rem;
       font-weight: bold;
-      margin: 2rem;
-      word-spacing: 1rem;
+      margin: 0 auto;
+      word-spacing: 0.3rem;
     }
   }
 }
