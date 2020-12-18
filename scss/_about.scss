@@ -1,56 +1,134 @@
-// about
-.cover {
-  .cover-about {
-    background-image: url("./../img/about.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    box-shadow:
-      inset 0 0 0 2000px
-      rgba(250, 248, 248, 0.7);
-    width: 100%;
-    height: 68rem;
-  }
+.about-cover {
+  padding: 2rem 0;
 
-  .cover-content {
-    text-align: center;
-    position: relative;
-    top: -60rem;
-    margin-bottom: -40rem;
-  }
-
-  .cover-title {
-    display: table;
-    text-align: justify;
-    font-size: 4rem;
-    font-weight: 700;
+  .about-header {
+    font-family: "Cocogoose Pro", "Libre Franklin", sans-serif;
+    font-size: 2.2rem;
+    font-weight: lighter;
+    text-transform: uppercase;
     color: $primary;
-    margin: 0 auto;
-  }
-
-  .summary {
-    display: inline-block;
-    margin: 0 auto;
     padding: 2rem;
-    border: 1px solid gray;
   }
 
-  .email-link {
-    color: #000;
+  .cover-header-paragraph {
+    background-color: #f8f8f8;
+    padding: 2rem;
+    border: 2px solid #fff;
+    opacity: 0.9;
+    margin: 0 4rem;
+    color: $black;
+  }
+
+  .cover-header-last {
+    margin: 0.2rem 4rem;
+    color: $black;
+  }
+
+  .email {
+    color: $black;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+}
+
+.creative {
+  padding: 2rem 0;
+
+  .creative-header {
     font-weight: bold;
   }
 
-  .creative {
-    background-color: #f7f7f7;
-    text-align: center;
+  .creative-words {
+    padding: 2rem;
+  }
+
+  .african-logo {
+    display: block;
+    margin: 0 auto;
+    border: 0.2rem solid #f8f8f8;
+    padding: 2rem 2rem;
+    width: 80%;
+  }
+}
+
+.past-events {
+  padding: 2rem 0;
+
+  .past-events-header {
+    font-weight: bold;
+  }
+
+  .event-images {
+    padding: 2rem;
+    display: grid;
+    align-items: center;
+    gap: 5%;
+
+    .img-1,
+    .img-2 {
+      background: linear-gradient(179deg, rgba(218, 95, 24, 0.2), rgba(218, 95, 24, 0.6)), url('./../img/show.jpg');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      width: 95%;
+      height: 10rem;
+      margin: 0 auto;
+    }
+
+    .event-words {
+      position: relative;
+      top: -8rem;
+      margin-bottom: -8rem;
+    }
+
+    .year {
+      font-size: 2.4rem;
+      font-weight: bold;
+    }
+
+    .year-tag {
+      font-weight: bold;
+    }
   }
 }
 
 @media only screen and (min-width: 768px) {
-  .cover {
-    .cover-content {
-      margin-bottom: -33.5rem;
+  .about-cover {
+    padding: 6rem 0;
+
+    .about-header {
+      font-size: 4rem;
+    }
+
+    .cover-header-paragraph {
+      margin: 0 12rem;
+    }
+  }
+
+  .creative {
+    .creative-words {
+      padding: 2rem 10rem;
+    }
+
+    .african-logo {
+      padding: 2rem 4rem;
+      width: 50%;
+    }
+  }
+
+  .past-events {
+    padding: 2rem 16rem;
+
+    .event-images {
+      grid-template-columns: auto auto;
+
+      .img-1,
+      .img-2 {
+        height: 18rem;
+      }
+
+      .event-words {
+        top: -16rem;
+      }
     }
   }
 }

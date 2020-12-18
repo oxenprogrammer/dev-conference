@@ -17,49 +17,53 @@
 		<title>Dev Conference - Home</title>
 	</head>
 	<body>
-		<nav
-			class="top-nav d-none d-md-block bg-dark p-4 text-white d-flex ml-auto"
-		>
-			<!-- <div class="nav-icons">
-				<i class="fa fa-facebook" aria-hidden="true"></i>
-				<i class="fa fa-twitter" aria-hidden="true"></i>
-			</div> -->
-			<div class="nav-text d-flex">
-				<div class="lang">English</div>
-				<div class="my-page">My Page</div>
-				<div class="logout">Logout</div>
-			</div>
+	
+		<nav class="desktop-top">
+			<i class="fab fa-facebook-f text-white"></i>
+			<i class="fab fa-twitter text-white"></i>
+			<a href="#" class="settings">Logout</a>
+			<a href="#" class="settings">My Page</a>
+			<a href="#" class="settings">Acholi</a>
 		</nav>
 
-		<nav
-			class="navbar sticky-top navbar-expand-md navbar-light bg-light d-flex justify-content-between p-4"
-		>
-			<a class="navbar-brand" href="#"><img src="./img/fashion-logo.png" alt="fashion logo"></a>
-			<button
-				class="navbar-toggler"
-				type="button"
-				data-toggle="collapse"
-				data-target="#navbarNavAltMarkup"
-				aria-controls="navbarNavAltMarkup"
-				aria-expanded="false"
-				aria-label="Toggle navigation"
-			>
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div
-				class="collapse navbar-collapse justify-content-around"
-				id="navbarNavAltMarkup"
-			>
-				<div class="navbar-nav justify-content-around">
-					<a class="nav-item nav-link active" href="#"
-						>Home <span class="sr-only">(current)</span></a
+		<nav class="nav bg-white desktop">
+			<div class="nav-header">
+				<img
+					class="image-fluid nav-title"
+					src="./img/african-logo.png"
+					alt="logo"
+				/>
+			</div>
+
+			<div class="nav-links">
+				<a class="nav-link" href="#">Home</a>
+				<a class="nav-link" href="./public/ticket.html"
+					>Tickets</a
+				>
+				<a class="nav-link" href="./public/about.html"
+					>About</a
+				>
+			</div>
+		</nav>
+		
+		<nav class="mobile">
+			<div onclick="toggleHamburger()">
+				<i class="fas fa-bars"></i>
+			</div>
+			<ul id="mobile-links">
+				<li><a class="link" href="#">Home</a></li>
+				<li>
+					<a class="link" href="./public/ticket.html"
+						>Ticket</a
 					>
-					<a class="nav-item nav-link" href="./public/about.html">About</a>
-					<a class="nav-item nav-link" href="./public/ticket.html">Tickets</a>
-				</div>
-			</div>
+				</li>
+				<li>
+					<a class="link" href="./public/about.html"
+						>About</a
+					>
+				</li>
+			</ul>
 		</nav>
-
 		<main class="main">
 			<section class="cover">
 				<div class="cover-image"></div>
@@ -95,9 +99,7 @@
 				<header class="main-program-header">
 					<h2 class="main-h2 text-center">Main Program</h2>
 				</header>
-				<article
-					class="d-grid program-content mx-auto"
-				>
+				<article class="d-grid program-content mx-auto">
 					<article class="lecture d-grid">
 						<img
 							class="image-fluid main-icon mx-auto"
@@ -162,7 +164,8 @@
 				<a href="#" class="d-none d-lg-block"
 					>See the whole program</a
 				>
-				<span class="d-flex join d-block d-lg-none text-center mx-auto"
+				<span
+					class="d-flex join d-block d-lg-none text-center mx-auto"
 					>Join Afro Fashion Exhibition 2020</span
 				>
 			</section>
@@ -179,12 +182,17 @@
 						class="col-12 col-sm-12 col-md-6 col-lg-6 d-grid speaker-article"
 					>
 						<div>
-							<img class="matrix" src="./img/matrix.png" alt="matrix">
 							<img
-							class="speaker-image"
-							src="./img/pexels-adrienne-andersen-2552127.jpg"
-							alt="Speaker One"
-						/></div>
+								class="matrix"
+								src="./img/matrix.png"
+								alt="matrix"
+							/>
+							<img
+								class="speaker-image"
+								src="./img/pexels-adrienne-andersen-2552127.jpg"
+								alt="Speaker One"
+							/>
+						</div>
 						<header class="speaker-content">
 							<h4 class="content-h2">Adrienne Andersen</h4>
 							<p class="content-title">
@@ -203,12 +211,16 @@
 						class="col-12 col-sm-12 col-md-6 col-lg-6 d-grid speaker-article"
 					>
 						<div>
-							<img class="matrix" src="./img/matrix.png" alt="matrix">
 							<img
-							class="speaker-image"
-							src="./img/pexels-engin-akyurt-1441151.jpg"
-							alt="Speaker Two"
-						/>
+								class="matrix"
+								src="./img/matrix.png"
+								alt="matrix"
+							/>
+							<img
+								class="speaker-image"
+								src="./img/pexels-engin-akyurt-1441151.jpg"
+								alt="Speaker Two"
+							/>
 						</div>
 						<header class="speaker-content">
 							<h4 class="content-h2">Engin Akyurt</h4>
@@ -229,15 +241,15 @@
 					>
 						<div>
 							<img
-							class="matrix"
-							src="./img/matrix.png"
-							alt="matrix"
-						/>
-						<img
-							class="speaker-image"
-							src="./img/pexels-jairo-david-arboleda-1432238.jpg"
-							alt="Speaker Three"
-						/>
+								class="matrix"
+								src="./img/matrix.png"
+								alt="matrix"
+							/>
+							<img
+								class="speaker-image"
+								src="./img/pexels-jairo-david-arboleda-1432238.jpg"
+								alt="Speaker Three"
+							/>
 						</div>
 						<header class="speaker-content">
 							<h4 class="content-h2">Jairo David</h4>
@@ -258,15 +270,15 @@
 					>
 						<div>
 							<img
-							class="matrix"
-							src="./img/matrix.png"
-							alt="matrix"
-						/>
-						<img
-							class="speaker-image"
-							src="./img/pexels-kehinde-ogunsanya-4297233.jpg"
-							alt="Speaker Four"
-						/>
+								class="matrix"
+								src="./img/matrix.png"
+								alt="matrix"
+							/>
+							<img
+								class="speaker-image"
+								src="./img/pexels-kehinde-ogunsanya-4297233.jpg"
+								alt="Speaker Four"
+							/>
 						</div>
 						<header class="speaker-content">
 							<h4 class="content-h2">Kehinde Ogunsanya</h4>
@@ -285,18 +297,18 @@
 					<article
 						class="col-12 col-sm-12 col-md-6 col-lg-6 d-grid speaker-article"
 					>
-					<div>
-						<img
-							class="matrix"
-							src="./img/matrix.png"
-							alt="matrix"
-						/>
-						<img
-							class="speaker-image"
-							src="./img/pexels-marlon-schmeiski-3839904.jpg"
-							alt="Speaker Five"
-						/>
-					</div>
+						<div>
+							<img
+								class="matrix"
+								src="./img/matrix.png"
+								alt="matrix"
+							/>
+							<img
+								class="speaker-image"
+								src="./img/pexels-marlon-schmeiski-3839904.jpg"
+								alt="Speaker Five"
+							/>
+						</div>
 						<header class="speaker-content">
 							<h4 class="content-h2">Marlon Schmeiski</h4>
 							<p class="content-title1">
@@ -314,14 +326,18 @@
 					<article
 						class="col-12 col-sm-12 col-md-6 col-lg-6 d-grid speaker-article"
 					>
-					<div>
-						<img class="matrix" src="./img/matrix.png" alt="matrix">
-						<img
-							class="speaker-image"
-							src="./img/pexels-evg-culture-4171757.jpg"
-							alt="Speaker Six"
-						/>
-					</div>
+						<div>
+							<img
+								class="matrix"
+								src="./img/matrix.png"
+								alt="matrix"
+							/>
+							<img
+								class="speaker-image"
+								src="./img/pexels-evg-culture-4171757.jpg"
+								alt="Speaker Six"
+							/>
+						</div>
 						<header class="speaker-content">
 							<h4 class="content-h2">Naava Gladys</h4>
 							<p class="content-title1">
@@ -347,7 +363,13 @@
 					<div class="partner-google">Google</div>
 					<div class="partner-naver">naver</div>
 					<div class="partner-daumkakao">daumkakao</div>
-					<div class="d-flex partner-airbnb text-center"><img class="airbnb" src="./img/airbnb.svg" alt="airbnb">&nbsp;&nbsp;airbnb</div>
+					<div class="d-flex partner-airbnb text-center">
+						<img
+							class="airbnb"
+							src="./img/airbnb.svg"
+							alt="airbnb"
+						/>&nbsp;&nbsp;airbnb
+					</div>
 				</article>
 			</section>
 		</main>
@@ -373,5 +395,15 @@
 			src="https://kit.fontawesome.com/bffcdc15fc.js"
 			crossorigin="anonymous"
 		></script>
+		<script>
+			function toggleHamburger() {
+				var x = document.getElementById("mobile-links");
+				if (x.style.display === "none") {
+					x.style.display = "block";
+				} else {
+					x.style.display = "none";
+				}
+			}
+		</script>
 	</body>
 </html>

@@ -16,81 +16,123 @@
 		<title>Dev Conference - Tickets</title>
 	</head>
 	<body>
-		<nav
-			class="top-nav d-none d-md-block bg-dark p-4 text-white d-flex ml-auto"
-		>
-			<!-- <div class="nav-icons">
-				<i class="fa fa-facebook" aria-hidden="true"></i>
-				<i class="fa fa-twitter" aria-hidden="true"></i>
-			</div> -->
-			<div class="nav-text d-flex">
-				<div class="lang">English</div>
-				<div class="my-page">My Page</div>
-				<div class="logout">Logout</div>
-			</div>
+		<nav class="d-grid desktop-top">
+			<i class="fab fa-facebook-f text-white"></i>
+			<i class="fab fa-twitter text-white"></i>
+			<a href="#" class="settings">Logout</a>
+			<a href="#" class="settings">My Page</a>
+			<a href="#" class="settings">Acholi</a>
 		</nav>
 
-		<nav
-			class="navbar sticky-top navbar-expand-md navbar-light bg-light d-flex justify-content-between p-4"
-		>
-			<a class="navbar-brand" href="./../index.html">Afro Fashion</a>
-			<button
-				class="navbar-toggler"
-				type="button"
-				data-toggle="collapse"
-				data-target="#navbarNavAltMarkup"
-				aria-controls="navbarNavAltMarkup"
-				aria-expanded="false"
-				aria-label="Toggle navigation"
-			>
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div
-				class="collapse navbar-collapse justify-content-around"
-				id="navbarNavAltMarkup"
-			>
-				<div class="navbar-nav justify-content-around">
-					<a class="nav-item nav-link active" href="./../index.html"
-						>Home <span class="sr-only"></span></a
-					>
-					<a class="nav-item nav-link" href="./about.html">About</a>
-					<a class="nav-item nav-link" href="./ticket.html">Tickets</a>
-				</div>
+		<nav class="nav bg-white desktop">
+			<div class="nav-header">
+				<img
+					class="image-fluid nav-title"
+					src="./../img/african-logo.png"
+					alt="logo"
+				/>
 			</div>
+
+			<div class="nav-links">
+				<a class="nav-link" href="./../index.html">Home</a>
+				<a class="nav-link" href="./ticket.html"
+					>Tickets</a
+				>
+				<a class="nav-link" href="#"
+					>About</a
+				>
+			</div>
+		</nav>
+		
+		<nav class="mobile d-block d-md-none">
+			<div onclick="toggleHamburger()">
+				<i class="fas fa-bars"></i>
+			</div>
+			<ul id="mobile-links">
+				<li><a class="link" href="#">Home</a></li>
+				<li>
+					<a class="link" href="./public/ticket.html"
+						>Ticket</a
+					>
+				</li>
+				<li>
+					<a class="link" href="./public/about.html"
+						>About</a
+					>
+				</li>
+			</ul>
 		</nav>
 
 		<main class="main">
-			<section class="cover">
-				<div class="cover-about"></div>
-				<div class="cover-content">
-					<h1 class="cover-title">
+			<section class="about-cover text-center">
+				<div class="cover-image"></div>
+				<header
+					class="cover-header text-center text-white position-relative"
+				>
+					<h1 class="text-center about-header">
 						Afro Fashion <br />
 						Global Summit 2020
 					</h1>
-					<div class="summary bg-white">
-						<p class="cover-paragraph">
-							This is the best african fashion you will
-							ever get to watch gjgjglddlllddl llflflf
-						</p>
-						<p class="cover-paragraph">
-							The Afro fashion summit is intendf lflfl ldldd kfkffkelobe.
-						</p>
-						<p class="cover-paragraph">
-							You will witgkgk kfkfkf kfkfkf fkfkfk nesss the prestigand lflflflf lflflflf
-						</p>
+					<p class="cover-header-paragraph">
+						A joyful celebration believing in the value of
+						culture and tradition, creating a positive
+						change with different cultures from over 80
+						African countries. Happening in Kampala, Uganda,
+						the Pearl of Africa.
+					</p>
+					<p class="cover-header-last text-center">
+						Please contact us @ National Museum of Uganda,
+						Art Center Kintale for more information
+					</p>
+					<a href="#" class="email"
+						>afro-fashion@kampala.info.org</a
+					>
+				</header>
+			</section>
+			<section class="creative bg-white">
+				<h2 class="creative-header text-center">
+					Afro Fashion Common Global Summit 2020
+				</h2>
+				<p class="creative-words text-center">
+					Lorem ipsum dolor, sit amet consectetur
+					adipisicing elit. Corporis, tempore labore beatae
+					vero odit debitis ex ab praesentium error atque.
+					Expedita natus blanditiis earum aspernatur
+					explicabo ipsa laboriosam eos eaque.
+				</p>
+				<img
+					class="image-fluid african-logo"
+					src="./../img/african.png"
+					alt="African fashion"
+				/>
+			</section>
+			<section class="past-events bg-white">
+				<hr />
+				<h2 class="past-events-header text-center text-center">
+					See the past Afro Global Summits
+				</h2>
+				<p class="creative-words text-center p-4">
+					Take a look at the former Afro Fashion shows that
+					happened in Kampala, Uganda
+				</p>
+				<article class="event-images text-white">
+					<div>
+						<div class="img-1"></div>
+						<div class="event-words text-center">
+							<p class="year">2018</p>
+							<p class="year-tag">Afro Fashion Show 2018</p>
+						</div>
 					</div>
-					<p>Please contact us for more information in this regards</p>
-					<p>About the Prestigious African Fashion</p>
-					<a class="email-link" href="#">afrofashion@afrika.org</a>
-				</div>
+					<div>
+						<div class="img-2"></div>
+						<div class="event-words text-center">
+							<p class="year">2019</p>
+							<p class="year-tag">Afro Fashion Show 2019</p>
+						</div>
+					</div>
+				</article>
 			</section>
-			<section class="creative">
-				<h3 class="creative-logo text-center">Creative Commons</h3>
-				<h3 class="creative-logo text-center">global Summit 2015 Logo</h3>
-				<p class="text-center">The Logo for the 2020 was decided through</p>
-				<p class="text-center">The Common ageement we don't understand</p>
-			</section>
-			<section class="position-relative partners">
+			<section class="partners">
 				<header class="main-program-header">
 					<h2 class="main-h2 text-center">Partners</h2>
 				</header>
@@ -127,5 +169,15 @@
 			integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
 			crossorigin="anonymous"
 		></script>
+		<script>
+			function toggleHamburger() {
+				var x = document.getElementById("mobile-links");
+				if (x.style.display === "none") {
+					x.style.display = "block";
+				} else {
+					x.style.display = "none";
+				}
+			}
+		</script>
 	</body>
 </html>
