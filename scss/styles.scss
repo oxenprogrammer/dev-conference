@@ -48,6 +48,9 @@ body {
 }
 
 .mobile {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   width: 100%;
   height: auto;
   background-color: #f9f6f5;
@@ -406,6 +409,9 @@ body {
 
   .desktop {
     display: inline-block;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
   }
 
   .main {
