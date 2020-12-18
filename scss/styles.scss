@@ -275,7 +275,6 @@ body {
   }
 
   .speakers {
-    // top: -24rem;
     padding: 1rem 2rem;
     background-color: #f8f8f8;
 
@@ -332,7 +331,6 @@ body {
   }
 
   .partners {
-    // top: -24rem;
     padding: 2rem 2rem 3.5rem 2rem;
     background-color: #414246;
     color: $gray;
@@ -450,7 +448,6 @@ body {
     }
 
     .speakers {
-      // top: -16rem;
       padding: 10rem;
 
       .main-program-header::before {
@@ -459,8 +456,6 @@ body {
     }
 
     .partners {
-      // top: -16rem;
-
       .partner-article {
         grid-template-columns: auto auto auto auto auto;
       }
