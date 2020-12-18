@@ -72,7 +72,12 @@
 			</div>
 		</nav>
 		<nav class="mobile d-block d-md-none">
-			<i class="fas fa-bars"></i>
+			<div onclick ="toggleHamburger()"><i class="fas fa-bars"></i></div>
+			<ul id="mobile-links">
+				<li><a class="link" href="#">Home</a></li>
+				<li><a class="link" href="./public/ticket.html">Ticket</a></li>
+				<li><a class="link" href="./public/about.html">About</a></li>
+			</ul>
 		</nav>
 		<main class="main">
 			<section class="cover">
@@ -405,5 +410,15 @@
 			src="https://kit.fontawesome.com/bffcdc15fc.js"
 			crossorigin="anonymous"
 		></script>
+		<script>
+			function toggleHamburger() {
+				var x = document.getElementById("mobile-links");
+				if (x.style.display === "none") {
+					x.style.display = "block";
+				} else {
+					x.style.display = "none";
+				}
+			}
+			</script>
 	</body>
 </html>

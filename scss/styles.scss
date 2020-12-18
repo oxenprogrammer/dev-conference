@@ -76,7 +76,29 @@ body {
     padding: 1rem;
     color: $black;
   }
+
+  #mobile-links {
+    display: none;
+    background-color: #f9f6f5;
+    list-style-type: none;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  #mobile-links li {
+    padding-bottom: 1rem;
+  }
+
+  .link {
+    text-decoration: none;
+    color: $black;
+  }
+
+  .link:hover {
+    color: $primary;
+  }
 }
+
 .desktop {
   display: none;
 }
