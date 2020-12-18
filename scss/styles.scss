@@ -47,24 +47,6 @@ body {
   color: $black;
 }
 
-// nav {
-//   font-size: 1.6rem;
-// }
-
-// .nav-icons {
-//   .fa {
-//     color: #fff;
-//     font-size: 2rem;
-//     margin-right: 1rem;
-//   }
-// }
-
-// .nav-text {
-//   .lang,
-//   .my-page {
-//     margin-right: 1rem;
-//   }
-// }
 .mobile {
   width: 100%;
   height: auto;
@@ -415,7 +397,14 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-  .desktop-top,
+  .mobile {
+    display: none;
+  }
+
+  .desktop-top {
+    display: grid;
+  }
+
   .desktop {
     display: inline-block;
   }
