@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="./css/styles.min.css" />
+		<title>Dev Conference - Home</title>
+	</head>
+	<body>
+	
+		<nav class="desktop-top">
+			<i class="fab fa-facebook-f text-white"></i>
+			<i class="fab fa-twitter text-white"></i>
+			<a href="#" class="settings">Logout</a>
+			<a href="#" class="settings">My Page</a>
+			<a href="#" class="settings">Acholi</a>
+		</nav>
+
+		<nav class="nav bg-white desktop">
+			<div class="nav-header">
+				<img
+					class="image-fluid nav-title"
+					src="./img/african-logo.png"
+					alt="logo"
+				/>
+			</div>
+
+			<div class="nav-links">
+				<a class="nav-link" href="./index.html">Home</a>
+				<a class="nav-link" href="./ticket.html"
+					>Tickets</a
+				>
+				<a class="nav-link" href="./about.html"
+					>About</a
+				>
+			</div>
+		</nav>
+		
+		<nav class="mobile">
+			<div onclick="toggleHamburger()">
+				<i class="fas fa-bars"></i>
+			</div>
+			<ul id="mobile-links">
+				<li><a class="link" href="./index.html">Home</a></li>
+				<li>
+					<a class="link" href="./ticket.html"
+						>Ticket</a
+					>
+				</li>
+				<li>
+					<a class="link" href="./about.html"
+						>About</a
+					>
+				</li>
+			</ul>
+		</nav>
+		<main class="main">
+			<section class="cover">
+				<div class="cover-image"></div>
+				<header
+					class="cover-header text-white position-relative"
+				>
+					<h2 class="cover-header-subtitle">
+						"Hello, Fashion world!"
+					</h2>
+					<h1 class="cover-header-title">
+						Afro Fashion Global Summit 2020
+					</h1>
+					<p class="cover-header-paragraph">
+						A joyful celebration believing in the value of
+						culture and tradition, creating a positive
+						change with different cultures from over 80
+						African countries. Happening in Kampala, Uganda,
+						the Pearl of Africa.
+					</p>
+					<h3 class="cover-header-h3">
+						2020.12.21(UTC +3) ~ 21(MON)
+					</h3>
+					<p class="cover-header-last">
+						@ National Museum of Uganda, Art Center Kintale
+						and more
+					</p>
+				</header>
+			</section>
+			<section
+				class="main-program position-relative text-left text-md-center text-lg-center"
+			>
+				<div class="program-background"></div>
+				<header class="main-program-header">
+					<h2 class="main-h2 text-center">Main Program</h2>
+				</header>
+				<article class="d-grid program-content mx-auto">
+					<article class="lecture d-grid">
+						<img
+							class="image-fluid main-icon mx-auto"
+							src="./img/press-conference.svg"
+							alt="lecture"
+						/>
+						<h4 class="main-h4">Lecture</h4>
+						<p class="main-paragraph">
+							Listen to speakers from different countries
+							about the vital of culture and tradition
+						</p>
+					</article>
+					<article class="lecture d-grid">
+						<img
+							class="image-fluid main-icon mx-auto"
+							src="./img/painting.svg"
+							alt="cc exhibition"
+						/>
+						<h4 class="main-h4">Cultural Exhibition</h4>
+						<p class="main-paragraph">
+							Gaze with amusement at the different cultural
+							exhibition from across Africa.
+						</p>
+					</article>
+					<article class="lecture d-grid">
+						<img
+							class="image-fluid main-icon mx-auto"
+							src="./img/press-conference.svg"
+							alt="lecture"
+						/>
+						<h4 class="main-h4">Lecture</h4>
+						<p class="main-paragraph">
+							Listen to speakers from different countries
+							about the vital of culture and tradition
+						</p>
+					</article>
+					<article class="lecture d-grid">
+						<img
+							class="image-fluid main-icon mx-auto"
+							src="./img/press-conference.svg"
+							alt="lecture"
+						/>
+						<h4 class="main-h4">Lecture</h4>
+						<p class="main-paragraph">
+							Listen to speakers from different countries
+							about the vital of culture and tradition
+						</p>
+					</article>
+					<article class="lecture d-grid">
+						<img
+							class="image-fluid main-icon mx-auto"
+							src="./img/press-conference.svg"
+							alt="lecture"
+						/>
+						<h4 class="main-h4">Lecture</h4>
+						<p class="main-paragraph">
+							Listen to speakers from different countries
+							about the vital of culture and tradition
+						</p>
+					</article>
+				</article>
+				<a href="#" class="d-none d-lg-block"
+					>See the whole program</a
+				>
+				<span
+					class="join d-block d-lg-none text-center"
+					>Join Afro Fashion Exhibition 2020</span
+				>
+			</section>
+			<section class="position-relative speakers">
+				<header class="main-program-header">
+					<h2 class="main-h2 text-center">
+						Featured Speakers
+					</h2>
+				</header>
+				<article
+					class="row speakers-articles justify-content-center"
+				>
+					<article
+						class="col-12 col-sm-12 col-md-6 col-lg-6 d-grid speaker-article"
+					>
+						<div>
+							<img
+								class="matrix"
+								src="./img/matrix.png"
+								alt="matrix"
+							/>
+							<img
+								class="speaker-image"
+								src="./img/pexels-adrienne-andersen-2552127.jpg"
+								alt="Speaker One"
+							/>
+						</div>
+						<header class="speaker-content">
+							<h4 class="content-h2">Adrienne Andersen</h4>
+							<p class="content-title">
+								We will make sure that we demonstrate a
+								goood image and riches of the African
+								culture
+							</p>
+							<p class="content-title">
+								We will make sure that we demonstrate a
+								goood image and riches of the African
+								culture
+							</p>
+						</header>
+					</article>
+					<article
+						class="col-12 col-sm-12 col-md-6 col-lg-6 d-grid speaker-article"
+					>
+						<div>
+							<img
+								class="matrix"
+								src="./img/matrix.png"
+								alt="matrix"
+							/>
+							<img
+								class="speaker-image"
+								src="./img/pexels-engin-akyurt-1441151.jpg"
+								alt="Speaker Two"
+							/>
+						</div>
+						<header class="speaker-content">
+							<h4 class="content-h2">Engin Akyurt</h4>
+							<p class="content-title1">
+								We will make sure that we demonstrate a
+								goood image and riches of the African
+								culture
+							</p>
+							<p class="content-title">
+								We will make sure that we demonstrate a
+								goood image and riches of the African
+								culture
+							</p>
+						</header>
+					</article>
+					<article
+						class="col-12 col-sm-12 col-md-6 col-lg-6 d-grid speaker-article"
+					>
+						<div>
+							<img
+								class="matrix"
+								src="./img/matrix.png"
+								alt="matrix"
+							/>
+							<img
+								class="speaker-image"
+								src="./img/pexels-jairo-david-arboleda-1432238.jpg"
+								alt="Speaker Three"
+							/>
+						</div>
+						<header class="speaker-content">
+							<h4 class="content-h2">Jairo David</h4>
+							<p class="content-title1">
+								We will make sure that we demonstrate a
+								goood image and riches of the African
+								culture
+							</p>
+							<p class="content-title">
+								We will make sure that we demonstrate a
+								goood image and riches of the African
+								culture
+							</p>
+						</header>
+					</article>
+					<article
+						class="col-12 col-sm-12 col-md-6 col-lg-6 d-grid speaker-article"
+					>
+						<div>
+							<img
+								class="matrix"
+								src="./img/matrix.png"
+								alt="matrix"
+							/>
+							<img
+								class="speaker-image"
+								src="./img/pexels-kehinde-ogunsanya-4297233.jpg"
+								alt="Speaker Four"
+							/>
+						</div>
+						<header class="speaker-content">
+							<h4 class="content-h2">Kehinde Ogunsanya</h4>
+							<p class="content-title1">
+								We will make sure that we demonstrate a
+								goood image and riches of the African
+								culture
+							</p>
+							<p class="content-title">
+								We will make sure that we demonstrate a
+								goood image and riches of the African
+								culture
+							</p>
+						</header>
+					</article>
+					<article
+						class="col-12 col-sm-12 col-md-6 col-lg-6 d-grid speaker-article"
+					>
+						<div>
+							<img
+								class="matrix"
+								src="./img/matrix.png"
+								alt="matrix"
+							/>
+							<img
+								class="speaker-image"
+								src="./img/pexels-marlon-schmeiski-3839904.jpg"
+								alt="Speaker Five"
+							/>
+						</div>
+						<header class="speaker-content">
+							<h4 class="content-h2">Marlon Schmeiski</h4>
+							<p class="content-title1">
+								We will make sure that we demonstrate a
+								goood image and riches of the African
+								culture
+							</p>
+							<p class="content-title">
+								We will make sure that we demonstrate a
+								goood image and riches of the African
+								culture
+							</p>
+						</header>
+					</article>
+					<article
+						class="col-12 col-sm-12 col-md-6 col-lg-6 d-grid speaker-article"
+					>
+						<div>
+							<img
+								class="matrix"
+								src="./img/matrix.png"
+								alt="matrix"
+							/>
+							<img
+								class="speaker-image"
+								src="./img/pexels-evg-culture-4171757.jpg"
+								alt="Speaker Six"
+							/>
+						</div>
+						<header class="speaker-content">
+							<h4 class="content-h2">Naava Gladys</h4>
+							<p class="content-title1">
+								We will make sure that we demonstrate a
+								goood image and riches of the African
+								culture
+							</p>
+							<p class="content-title">
+								We will make sure that we demonstrate a
+								goood image and riches of the African
+								culture
+							</p>
+						</header>
+					</article>
+				</article>
+			</section>
+			<section class="position-relative partners">
+				<header class="main-program-header">
+					<h2 class="main-h2 text-center">Partners</h2>
+				</header>
+				<article class="partner-article d-grid">
+					<div class="partner-mozilla">mozilla</div>
+					<div class="partner-google">Google</div>
+					<div class="partner-naver">naver</div>
+					<div class="partner-daumkakao">daumkakao</div>
+					<div class="d-flex partner-airbnb text-center">
+						<img
+							class="airbnb"
+							src="./img/airbnb.svg"
+							alt="airbnb"
+						/>&nbsp;&nbsp;airbnb
+					</div>
+				</article>
+			</section>
+		</main>
+		<footer class="footer d-grid">
+			<div class="footer-logo">Afro Fashion</div>
+			<address class="footer-brand">
+				2020 Afro Fashion Kampala
+			</address>
+			<address class="footer-copyright">
+				Some Rights Reserved
+			</address>
+			<address class="d-none d-md-block footer-lang">
+				Some Korean words i don't really understand
+			</address>
+		</footer>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://kit.fontawesome.com/bffcdc15fc.js"
+			crossorigin="anonymous"
+		></script>
+		<script>
+			function toggleHamburger() {
+				var x = document.getElementById("mobile-links");
+				if (x.style.display === "none") {
+					x.style.display = "block";
+				} else {
+					x.style.display = "none";
+				}
+			}
+		</script>
+	</body>
+</html>
